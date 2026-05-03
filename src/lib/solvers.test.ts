@@ -2,6 +2,7 @@ import { describe, expect, test } from "vitest"
 
 import {
   solveCircuitGrid,
+  solveCircuitRoute,
   solvePillarHeights,
   solveSlidingPuzzle,
 } from "./solvers"
@@ -51,6 +52,35 @@ describe("solveCircuitGrid", () => {
       false,
       true,
       false,
+    ])
+  })
+})
+
+describe("solveCircuitRoute", () => {
+  test("finds presses that push every route cell down without constraining off-route cells", () => {
+    const solution = solveCircuitRoute({
+      width: 3,
+      height: 3,
+      initialPressed: [false, false, false, false, false, false, false, false, false],
+      route: [true, false, true, false, true, false, true, false, true],
+      presses: [
+        { id: "top", label: "top node", toggles: [0, 1, 2] },
+        { id: "middle", label: "middle node", toggles: [1, 4, 7] },
+        { id: "bottom", label: "bottom node", toggles: [6, 7, 8] },
+      ],
+    })
+
+    expect(solution?.moveIds).toEqual(["top", "middle", "bottom"])
+    expect(solution?.states.at(-1)).toMatchObject([
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
     ])
   })
 })

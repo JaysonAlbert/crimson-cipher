@@ -32,6 +32,14 @@ export type CircuitPuzzle = {
   presses: CircuitPress[]
 }
 
+export type CircuitRoutePuzzle = {
+  width: number
+  height: number
+  initialPressed: boolean[]
+  route: boolean[]
+  presses: CircuitPress[]
+}
+
 export type SlidingPuzzle = {
   width: number
   height: number
@@ -88,6 +96,36 @@ export function solveCircuitGrid(
     isGoal: (state) =>
       state.every((isOn, index) => isOn === puzzle.targetOn[index]),
     key: (state) => state.map((isOn) => (isOn ? "1" : "0")).join(""),
+    next: (state) =>
+      puzzle.presses.map((press) => {
+        const nextState = [...state]
+        for (const index of press.toggles) {
+          if (index >= 0 && index < nextState.length) {
+            nextState[index] = !nextState[index]
+          }
+        }
+
+        return { moveId: press.id, state: nextState }
+      }),
+  })
+}
+
+export function solveCircuitRoute(
+  puzzle: CircuitRoutePuzzle
+): SearchSolution<boolean[]> | null {
+  const expectedCells = puzzle.width * puzzle.height
+  if (
+    puzzle.initialPressed.length !== expectedCells ||
+    puzzle.route.length !== expectedCells
+  ) {
+    return null
+  }
+
+  return breadthFirstSearch({
+    initial: puzzle.initialPressed,
+    isGoal: (state) =>
+      puzzle.route.every((isRouteCell, index) => !isRouteCell || state[index]),
+    key: (state) => state.map((isPressed) => (isPressed ? "1" : "0")).join(""),
     next: (state) =>
       puzzle.presses.map((press) => {
         const nextState = [...state]
