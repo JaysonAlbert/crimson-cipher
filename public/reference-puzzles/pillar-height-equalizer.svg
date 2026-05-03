@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Pillar Height Equalizer</title>
+  <desc id="desc">Coupled controls raise or lower multiple pillars until every column matches the target height.</desc>
+  <rect width="1200" height="760" fill="#140c0b"/>
+  <rect x="42" y="42" width="1116" height="676" rx="34" fill="#211514" stroke="#5a3a34" stroke-width="3"/>
+  <text x="82" y="106" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">Pillar Height Equalizer</text>
+  <text x="84" y="148" fill="#b99f8d" font-family="Inter, Arial, sans-serif" font-size="22">Coupled controls raise or lower multiple pillars until every column matches the target height.</text>
+  
+  <line x1="150" y1="610" x2="900" y2="610" stroke="#5a3a34" stroke-width="8"/>
+  <line x1="150" y1="382" x2="900" y2="382" stroke="#f5b84b" stroke-width="5" stroke-dasharray="16 14"/>
+  <text x="922" y="390" fill="#f5b84b" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="700">target</text>
+  <rect x="172" y="310" width="82" height="300" rx="10" fill="#f5b84b" stroke="#53463e" stroke-width="4"/>
+    <text x="213" y="650" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="24" text-anchor="middle">P1</text><rect x="310" y="400" width="82" height="210" rx="10" fill="#867262" stroke="#53463e" stroke-width="4"/>
+    <text x="351" y="650" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="24" text-anchor="middle">P2</text><rect x="448" y="250" width="82" height="360" rx="10" fill="#867262" stroke="#53463e" stroke-width="4"/>
+    <text x="489" y="650" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="24" text-anchor="middle">P3</text><rect x="586" y="350" width="82" height="260" rx="10" fill="#867262" stroke="#53463e" stroke-width="4"/>
+    <text x="627" y="650" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="24" text-anchor="middle">P4</text><rect x="724" y="190" width="82" height="420" rx="10" fill="#867262" stroke="#53463e" stroke-width="4"/>
+    <text x="765" y="650" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="24" text-anchor="middle">P5</text>
+  <g transform="translate(835 260)">
+    <circle cx="90" cy="90" r="72" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+    <path d="M90 24v132M24 90h132" stroke="#cf3e32" stroke-width="12" stroke-linecap="round"/>
+    <text x="90" y="190" fill="#b99f8d" font-family="Inter, Arial, sans-serif" font-size="20" text-anchor="middle">stab slots affect sets</text>
+  </g>
+  <text x="84" y="694" fill="#b99f8d" font-family="Inter, Arial, sans-serif" font-size="21">Solver model: bounded integer search, BFS, or linear constraints over height deltas.</text>
+</svg>

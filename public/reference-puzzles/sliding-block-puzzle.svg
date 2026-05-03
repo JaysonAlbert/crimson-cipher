@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Sliding Block Puzzle</title>
+  <desc id="desc">A board with one empty cell; move tiles until route segments or fragments reach a target order.</desc>
+  <rect width="1200" height="760" fill="#140c0b"/>
+  <rect x="42" y="42" width="1116" height="676" rx="34" fill="#211514" stroke="#5a3a34" stroke-width="3"/>
+  <text x="82" y="106" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">Sliding Block Puzzle</text>
+  <text x="84" y="148" fill="#b99f8d" font-family="Inter, Arial, sans-serif" font-size="22">A board with one empty cell; move tiles until route segments or fragments reach a target order.</text>
+  
+  <rect x="270" y="190" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="319" y="239" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">1</text><rect x="390" y="190" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="439" y="239" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">2</text><rect x="510" y="190" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="559" y="239" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">3</text><rect x="630" y="190" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="679" y="239" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">4</text><rect x="270" y="290" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="319" y="339" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">5</text><rect x="390" y="290" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="439" y="339" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">6</text><rect x="510" y="290" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="559" y="339" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">7</text><rect x="630" y="290" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="679" y="339" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">8</text><rect x="270" y="390" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="319" y="439" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">9</text><rect x="390" y="390" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="439" y="439" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">10</text><rect x="510" y="390" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="559" y="439" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">11</text><rect x="630" y="390" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="679" y="439" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">12</text><rect x="270" y="490" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="319" y="539" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">13</text><rect x="390" y="490" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="439" y="539" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">14</text><rect x="510" y="490" width="98" height="78" rx="10" fill="#100908" stroke="#5a3a34" stroke-width="3" stroke-dasharray="10 8"/><rect x="630" y="490" width="98" height="78" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+        <text x="679" y="539" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="800" text-anchor="middle">16</text>
+  <path d="M785 390h80m-25-24 25 24-25 24" fill="none" stroke="#f5b84b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="84" y="694" fill="#b99f8d" font-family="Inter, Arial, sans-serif" font-size="21">Solver model: A*, IDA*, parity checks; visual target optional if tile IDs or route edges are detected.</text>
+</svg>

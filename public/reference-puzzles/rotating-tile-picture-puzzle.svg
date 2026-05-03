@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Rotating Tile Picture Puzzle</title>
+  <desc id="desc">Tiles rotate in place; the target is valid when edges, symbols, or image fragments align.</desc>
+  <rect width="1200" height="760" fill="#140c0b"/>
+  <rect x="42" y="42" width="1116" height="676" rx="34" fill="#211514" stroke="#5a3a34" stroke-width="3"/>
+  <text x="82" y="106" fill="#f4e7d8" font-family="Inter, Arial, sans-serif" font-size="42" font-weight="800">Rotating Tile Picture Puzzle</text>
+  <text x="84" y="148" fill="#b99f8d" font-family="Inter, Arial, sans-serif" font-size="22">Tiles rotate in place; the target is valid when edges, symbols, or image fragments align.</text>
+  
+  <g transform="translate(282 227) rotate(0) translate(-52 -42)">
+      <rect x="230" y="185" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M245 248 C265 199, 298 281, 320 209" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="308" cy="213" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(412 227) rotate(90) translate(-52 -42)">
+      <rect x="360" y="185" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M375 248 C395 199, 428 281, 450 209" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="438" cy="213" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(542 227) rotate(180) translate(-52 -42)">
+      <rect x="490" y="185" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M505 248 C525 199, 558 281, 580 209" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="568" cy="213" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(672 227) rotate(270) translate(-52 -42)">
+      <rect x="620" y="185" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M635 248 C655 199, 688 281, 710 209" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="698" cy="213" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(282 332) rotate(180) translate(-52 -42)">
+      <rect x="230" y="290" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M245 353 C265 304, 298 386, 320 314" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="308" cy="318" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(412 332) rotate(270) translate(-52 -42)">
+      <rect x="360" y="290" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M375 353 C395 304, 428 386, 450 314" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="438" cy="318" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(542 332) rotate(0) translate(-52 -42)">
+      <rect x="490" y="290" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M505 353 C525 304, 558 386, 580 314" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="568" cy="318" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(672 332) rotate(90) translate(-52 -42)">
+      <rect x="620" y="290" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M635 353 C655 304, 688 386, 710 314" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="698" cy="318" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(282 437) rotate(0) translate(-52 -42)">
+      <rect x="230" y="395" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M245 458 C265 409, 298 491, 320 419" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="308" cy="423" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(412 437) rotate(90) translate(-52 -42)">
+      <rect x="360" y="395" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M375 458 C395 409, 428 491, 450 419" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="438" cy="423" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(542 437) rotate(180) translate(-52 -42)">
+      <rect x="490" y="395" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M505 458 C525 409, 558 491, 580 419" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="568" cy="423" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(672 437) rotate(270) translate(-52 -42)">
+      <rect x="620" y="395" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M635 458 C655 409, 688 491, 710 419" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="698" cy="423" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(282 542) rotate(180) translate(-52 -42)">
+      <rect x="230" y="500" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M245 563 C265 514, 298 596, 320 524" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="308" cy="528" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(412 542) rotate(270) translate(-52 -42)">
+      <rect x="360" y="500" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M375 563 C395 514, 428 596, 450 524" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="438" cy="528" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(542 542) rotate(0) translate(-52 -42)">
+      <rect x="490" y="500" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M505 563 C525 514, 558 596, 580 524" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="568" cy="528" r="9" fill="#69c7ff"/>
+    </g><g transform="translate(672 542) rotate(90) translate(-52 -42)">
+      <rect x="620" y="500" width="104" height="84" rx="10" fill="#2b1a18" stroke="#5a3a34" stroke-width="4"/>
+      <path d="M635 563 C655 514, 688 596, 710 524" fill="none" stroke="#f5b84b" stroke-width="8" stroke-linecap="round"/>
+      <circle cx="698" cy="528" r="9" fill="#69c7ff"/>
+    </g>
+  <text x="84" y="694" fill="#b99f8d" font-family="Inter, Arial, sans-serif" font-size="21">Solver model: finite rotations per tile; score by edge continuity, symbol matching, or image similarity.</text>
+</svg>
